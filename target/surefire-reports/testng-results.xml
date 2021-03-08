@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automationteststore Cucumber Framework" duration-ms="71985" started-at="2021-03-01T00:33:36Z" finished-at="2021-03-01T00:34:48Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.MainRunner@523884b2]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Cucumber Tests" duration-ms="71985" started-at="2021-03-01T00:33:36Z" finished-at="2021-03-01T00:34:48Z">
+      <class name="runners.MainRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runners.MainRunner@523884b2]" name="setUpClass" is-config="true" duration-ms="1328" started-at="2021-03-01T08:33:36Z" finished-at="2021-03-01T08:33:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.MainRunner@523884b2]" name="feature" duration-ms="39915" started-at="2021-03-01T08:33:38Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-03-01T08:34:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login Page]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.MainRunner@523884b2]" name="feature" duration-ms="14281" started-at="2021-03-01T08:34:18Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-03-01T08:34:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login Page: User Unsuccessful attempts]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.MainRunner@523884b2]" name="feature" duration-ms="14664" started-at="2021-03-01T08:34:32Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-03-01T08:34:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login Page]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="writeExtentReport()[pri:0, instance:runners.MainRunner@523884b2]" name="writeExtentReport" is-config="true" duration-ms="62" started-at="2021-03-01T08:34:47Z" finished-at="2021-03-01T08:34:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeExtentReport -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runners.MainRunner@523884b2]" name="tearDownClass" is-config="true" duration-ms="1344" started-at="2021-03-01T08:34:47Z" finished-at="2021-03-01T08:34:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.MainRunner -->
+    </test> <!-- Cucumber Tests -->
+  </suite> <!-- Automationteststore Cucumber Framework -->
+</testng-results>

@@ -1,0 +1,640 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10437244100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MasterHooks.setup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "User should be able to login with valid credentials",
+        "description": "",
+        "id": "login-page;user-should-be-able-to-login-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1557726800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MasterHooks.tearDownAndScreenshotOnFailure(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4705190600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on landing page as \"https://automationteststore.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://automationteststore.com",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginSteps.user_is_on_landing_page_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1833794800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks the LoginRegister button",
+            "match": {
+              "location": "LoginSteps.user_clicks_the_LoginRegister_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 755250500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters Login Name as \"datastudioplace\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "datastudioplace",
+                  "offset": 27
+                }
+              ],
+              "location": "LoginSteps.user_enters_Login_Name_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 581418900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters Password as \"Manchester1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Manchester1",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginSteps.user_enters_Password_as(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1362267200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "LoginSteps.user_clicks_on_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 90244500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is on Dashboard Page",
+            "match": {
+              "location": "LoginSteps.user_is_on_Dashboard_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1350150200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks logoff button",
+            "match": {
+              "location": "LoginSteps.user_clicks_logoff_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6048988000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MasterHooks.setup()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "User should NOT be able to login with invalid credentials",
+        "description": "",
+        "id": "login-page;user-should-not-be-able-to-login-with-invalid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1663461300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MasterHooks.tearDownAndScreenshotOnFailure(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3025480400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User is on landing page as \"https://automationteststore.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://automationteststore.com",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginSteps.user_is_on_landing_page_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1953789800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User clicks the LoginRegister button",
+            "match": {
+              "location": "LoginSteps.user_clicks_the_LoginRegister_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 848682300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enters Login Name as \"datastudioplaceWrong\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "datastudioplaceWrong",
+                  "offset": 27
+                }
+              ],
+              "location": "LoginSteps.user_enters_Login_Name_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 609356800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enters Password as \"Manchester1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Manchester1",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginSteps.user_enters_Password_as(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1121134500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "LoginSteps.user_clicks_on_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 315784500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User gets a confirmation message",
+            "match": {
+              "location": "LoginSteps.user_gets_a_confirmation_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 106092000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User is still in login page as \"RETURNING CUSTOMER\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "RETURNING CUSTOMER",
+                  "offset": 32
+                }
+              ],
+              "location": "LoginSteps.user_is_still_in_login_page_as(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login Page",
+    "description": "",
+    "id": "login-page",
+    "keyword": "Feature",
+    "uri": "AccountLogin.feature"
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3432188100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MasterHooks.setup()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "User should NOT be able to login with invalid credentials",
+        "description": "",
+        "id": "login-page:-user-unsuccessful-attempts;user-should-not-be-able-to-login-with-invalid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1420218100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MasterHooks.tearDownAndScreenshotOnFailure(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3508121300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on landing page as \"https://automationteststore.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://automationteststore.com",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginSteps.user_is_on_landing_page_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2541406900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks the LoginRegister button",
+            "match": {
+              "location": "LoginSteps.user_clicks_the_LoginRegister_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 813362500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters Login Name as \"datastudioplaceWrong\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "datastudioplaceWrong",
+                  "offset": 27
+                }
+              ],
+              "location": "LoginSteps.user_enters_Login_Name_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 843869200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters Password as \"Manchester1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Manchester1",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginSteps.user_enters_Password_as(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1150965100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "LoginSteps.user_clicks_on_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 385957200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User gets a confirmation message",
+            "match": {
+              "location": "LoginSteps.user_gets_a_confirmation_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 87871800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User is still in login page as \"RETURNING CUSTOMER\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "RETURNING CUSTOMER",
+                  "offset": 32
+                }
+              ],
+              "location": "LoginSteps.user_is_still_in_login_page_as(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@LoginUnsuccessful"
+          }
+        ]
+      }
+    ],
+    "name": "Login Page: User Unsuccessful attempts",
+    "description": "",
+    "id": "login-page:-user-unsuccessful-attempts",
+    "keyword": "Feature",
+    "uri": "Login_Negative.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@LoginUnsuccessful"
+      }
+    ]
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3598762600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MasterHooks.setup()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "User should be able to login with valid credentials",
+        "description": "",
+        "id": "login-page;user-should-be-able-to-login-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1729756500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MasterHooks.tearDownAndScreenshotOnFailure(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4109934600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on landing page as \"https://automationteststore.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://automationteststore.com",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginSteps.user_is_on_landing_page_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1388092700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks the LoginRegister button",
+            "match": {
+              "location": "LoginSteps.user_clicks_the_LoginRegister_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 605571200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters Login Name as \"datastudioplace\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "datastudioplace",
+                  "offset": 27
+                }
+              ],
+              "location": "LoginSteps.user_enters_Login_Name_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 568442300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters Password as \"Manchester1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Manchester1",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginSteps.user_enters_Password_as(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1146787100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "LoginSteps.user_clicks_on_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 96199500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User is on Dashboard Page",
+            "match": {
+              "location": "LoginSteps.user_is_on_Dashboard_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1323306300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks logoff button",
+            "match": {
+              "location": "LoginSteps.user_clicks_logoff_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Validcredentials"
+          }
+        ]
+      }
+    ],
+    "name": "Login Page",
+    "description": "",
+    "id": "login-page",
+    "keyword": "Feature",
+    "uri": "Login_Positive.feature"
+  }
+]
